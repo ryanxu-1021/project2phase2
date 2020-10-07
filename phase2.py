@@ -8,10 +8,10 @@ from google.cloud.language_v1 import enums
 import matplotlib
 import matplotlib.pyplot as plt
 
-ACCESS_TOKEN = "1309945781290299392-40z873fpuIyALoBBa1COfcL3XOo4v1"
-ACCESS_TOKON_SECRET ="4Enwb3l1szHJOV2tOncoR6cVKJITkNQjecL2dku004uRj"
-CONSUMER_KEY = "sP0Ap4orRXQZvyijETm2D0g0m"
-CONSUMER_SECRET ="AkdIB1rnik9dkRpUchhGeHRDOrhFLLTTPYZb0mcFa2P0Bt1h62"
+ACCESS_TOKEN = 
+ACCESS_TOKON_SECRET =
+CONSUMER_KEY = 
+CONSUMER_SECRET =
 # Anuthenticaiton
 auth = tweepy.OAuthHandler(tc.CONSUMER_KEY, tc.CONSUMER_SECRET)
 auth.set_access_token(tc.ACCESS_TOKEN, tc.ACCESS_TOKON_SECRET)
@@ -30,7 +30,7 @@ api = tweepy.API(auth)
 
 ## username test
 while True:
-  screen_name = input("Whose twitter do you want to analysis? (type the user name e.g. JoeBiden, realDonaldTrump) ")
+  screen_name = input("Whose twitter do you want to analysis? 
   if re.search(r'[\s]', screen_name):
     print ("    No spaces please.")
   else:
