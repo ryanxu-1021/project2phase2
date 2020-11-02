@@ -12,7 +12,9 @@ I use the tweepy and google nlp to do this project.
 First, get raw data by using twitter api. This data contain a lot of messy words, so we need to clean it.
 Then remove mention block, retweet block and embedded URLs.
 Then send the treated data to google nlp. Using google nlp to analyze its sentiment and entity.
+
 <img src="1.png" >
+
 
 ## Prerequest
 pip install tweepy 
