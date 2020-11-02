@@ -17,9 +17,12 @@ Then send the treated data to google nlp. Using google nlp to analyze its sentim
 
 
 ## Prerequest
-pip install tweepy 
+pip install tweepy and also the google.cloud.language
+
 pip install requests
+
 pip install Cython
+
 pip install matplotlib
 
 
